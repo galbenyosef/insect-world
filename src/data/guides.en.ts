@@ -64,50 +64,50 @@ export const GUIDES: Record<string, Guide> = {
     lesson: [
       {
         title: "Orange and Black as Warning",
-        body: "The forewing's orange with black veins is a warning color: toxins the caterpillar (larva) stored from milkweed persist into the adult, and a bird tasting the bitterness once remembers and avoids the pattern.",
+        body: "Orange and black warn predators: the caterpillar's milkweed toxins stay in the adult. In an early study, a blue jay that ate one vomited and refused more; a few species eat them anyway.",
         anchor: 'forewing',
       },
       {
         title: "Telling Males from Females",
-        body: "Each hindwing carries a small black spot near its base, a male-only scent patch releasing courtship pheromones; females lack it and have thicker, darker veins, the clearest way to tell the sexes apart.",
+        body: "Only males have a small black spot of special scales on each hindwing; females often look darker, with wider veins. Elsewhere such scales make courtship scents; in monarchs they seem unimportant.",
         anchor: 'hindwing',
       },
       {
-        title: "Navigating a Route Never Flown",
-        body: "The generation migrating south has never seen Mexico, yet reaches the same fir forest its ancestors wintered in, guided by an antennal clock and the sun's angle—or, on cloudy days, Earth's magnetic field.",
+        title: "How First-Time Migrants Orient",
+        body: "First-time migrants: the eyes track the sun and antennal clocks adjust the heading by time of day. Antennae may hold light-dependent magnetosensors; a magnetic map to exact sites is unproven.",
         anchor: 'antenna',
       },
       {
         title: "How the Proboscis Sips Nectar",
-        body: "The proboscis stays coiled like a watch spring, uncoiling to sip nectar in a flower's corolla; this structure, shared across Lepidoptera (butterflies and moths), replaces ancestral chewing mouthparts.",
+        body: "Monarchs spot flowers by sight; taste receptors on their feet find nectar, and when sugar touches the feet they extend the straw-like proboscis. At rest it is curled up.",
         anchor: 'proboscis',
       },
     ],
     motion: {
       title: "Navigating by a Sun Compass",
-      body: "Migrating monarchs track the sun's position, combined with an internal clock, to hold a fixed heading; over weeks, despite the sun's daily shift, they keep a southward course, converging on one fir forest valley in Mexico.",
+      body: "Eastern monarchs fly south by a time-compensated sun compass: eyes sense the sun and antennal clocks correct the heading. The trip may last over two months, ending in central Mexico's fir forests.",
     },
     quiz: [
       {
         question: "What is the main purpose of the monarch butterfly's bright orange and black wing pattern?",
         options: ["Attracting others of its kind for long-distance group recognition", "Warning predators of toxins stored in its body", "Helping regulate body temperature on long flights"],
         answer: 1,
-        explain: "Toxins the caterpillar stores from milkweed persist into the adult body; the orange and black pattern warns birds it tastes bad and causes sickness.",
+        explain: "Milkweed toxins gained by the caterpillar persist into the adult; the orange and black pattern warns predators that eating it can be toxic.",
       },
       {
-        question: "What allows monarchs that complete their autumn migration to reach their Mexican wintering grounds?",
+        question: "What do fall-migrating monarchs mainly use to set their flight direction?",
         options: [
           "Following experienced older individuals who lead the way",
-          "An internal sun compass and biological clock, switching to magnetic sensing on cloudy days",
+          "A time-compensated sun compass: eyes track the sun, antennal clocks keep time",
           "A chain of pheromone scent left along the route",
         ],
         answer: 1,
-        explain: "The generation flying south has never seen Mexico; it sets direction from the sun's angle and an internal clock, switching to Earth's field if cloudy.",
+        explain: "First-time migrants use a sun compass: eyes sense the sun, antennal clocks keep time. Tests also show a light-dependent magnetic compass.",
       },
     ],
     habitat: {
       title: "From Milkweed to Fir Forest",
-      body: "During the breeding season, monarchs scatter across grasslands and fields, caterpillars depending solely on toxic milkweed; come autumn, adults mass-migrate to a few fir forests in Mexico, converging in one tiny wintering area.",
+      body: "Breeding adults use fields, roadsides, open land and gardens; larvae eat only milkweed. In fall most eastern monarchs roost on firs in Mexico's highlands at about 2400–3600 m; western ones winter in coastal California.",
     },
   },
 
@@ -162,49 +162,49 @@ export const GUIDES: Record<string, Guide> = {
     lesson: [
       {
         title: "How Compound Eyes See the World",
-        body: "The compound eyes cover nearly the whole head, built from close to 30,000 facets (ommatidia), giving a near-360-degree view with no blind spot; each facet senses moving light, key to catching prey midair.",
+        body: "Adult dragonfly and damselfly eyes have up to about thirty thousand facets. A sky-facing rim reads polarized skylight; lower parts sense polarized glare off water, guiding them to it.",
         anchor: 'eye',
       },
       {
-        title: "Two Wing Pairs Flying Independently",
-        body: "The forewings and hindwings, each driven by their own muscles, can beat out of sync: the dragonfly hovers like a helicopter and turns sharply or flies backward instantly, a level of control rare among insects.",
+        title: "Clear Wings, Sea Crossings",
+        body: "Its wings are clear with a slight brown tint, sometimes deep brown in mature females. It is a swift flier that can cross seas in groups; it is common in Japan but rare in Hokkaido.",
         anchor: 'forewing',
       },
       {
-        title: "Legs That Form a Prey Basket",
-        body: "Rows of bristles cover all six legs; in flight they fold into a funnel-shaped basket, and small insects like mosquitoes blundering in rarely escape. A dragonfly need not bite or chase—legs alone catch prey.",
+        title: "Approaching from Below",
+        body: "Other dragonflies studied mostly attack from below, keeping prey in their sharpest view; most catches take under half a second. In trials they caught fruit flies at median rates of 83%–95%.",
         anchor: 'leg',
       },
       {
         title: "From Underwater to the Air",
-        body: "The nymph, or naiad, lurks underwater for months to a year, a fierce ambush hunter on the pond bottom; its final molt, climbing out along water plants, brings wings and eyes, turning hunter aerial.",
+        body: "Larvae grow in weedy lowland ponds; in Japan, adults emerge from about May to September, peaking in midsummer. New odonate adults have empty guts and little fat; feeding often doubles their weight in weeks.",
       },
     ],
     motion: {
       title: "Intercepting Prey in Midair",
-      body: "When hunting, a dragonfly does not just fix its gaze on prey; visual neurons compute its speed and direction, predict an interception point, and steer there. This intercept-not-chase tactic pushes success above ninety percent.",
+      body: "Studies of other dragonflies show the head turns ahead of time to keep tracking prey, and the body then swings onto the prey's flight path. Most steering runs on prediction; vision handles sudden swerves by the prey.",
     },
     quiz: [
       {
-        question: "What is the key reason dragonflies keep such a high hunting success rate?",
-        options: ["Compound eyes give a nearly 360-degree view with no blind spot", "Neurons predict prey trajectories and intercept ahead rather than chase", "Flight speed far exceeds that of any prey"],
+        question: "In an experiment where a dragonfly of another genus hunted fruit flies, what caused the most failed attacks?",
+        options: ["The fly noticing the dragonfly and dodging", "The fly's routine random turns in flight", "The fly outflying the dragonfly"],
         answer: 1,
-        explain: "Visual neurons predict an interception point from the prey's path, so the dragonfly flies to where prey will be, not chasing—key to its high hit rate.",
+        explain: "Flies usually did not notice the approaching dragonfly; their routine random turns foiled more attacks than deliberate dodges did.",
       },
       {
-        question: "Which statement about the dragonfly's development is correct?",
+        question: "Which statement about this species' larvae and egg-laying is correct?",
         options: [
-          "It passes through egg, larva, pupa, and adult stages, which is complete metamorphosis",
-          "The naiad molts directly into an adult with no pupal stage, which is incomplete metamorphosis",
-          "The naiad develops on land, and only the adult takes to the water",
+          "Larvae develop on land, and only adults take to the water",
+          "Larvae grow in lowland ponds, and females lay eggs on floating plants",
+          "Females lay eggs in bark crevices, and larvae grow up in trees",
         ],
         answer: 1,
-        explain: "Dragonflies undergo incomplete metamorphosis: the nymph (naiad) molts repeatedly underwater, emerging directly as an adult with no pupal stage.",
+        explain: "Larvae grow in lowland ponds; females, alone or in tandem with a male, lay eggs on plants floating on the water.",
       },
     ],
     habitat: {
-      title: "A Hunter Patrolling Its Territory",
-      body: "An adult male holds a stretch of shoreline airspace, patrolling and chasing off intruding males to defend water females need for egg-laying; the nymph lurks in mud to ambush prey. One pond holds two very different life forms.",
+      title: "Foraging Overhead, Courting at Ponds",
+      body: "By day, immature adults forage in flight about 1–2 m above open ground; mature males come to ponds to seek females, and females, alone or in tandem with a male, lay eggs on floating plants. The larvae then grow in the pond.",
     },
   },
 
@@ -311,50 +311,50 @@ export const GUIDES: Record<string, Guide> = {
   ant: {
     lesson: [
       {
-        title: "Why the Waist Is So Thin",
-        body: "Between thorax and abdomen the body narrows into a tiny segment, the petiole, a flexible joint letting the gaster swing and curl to aim a sting; this narrow waist sets ants apart from other insects.",
+        title: "Finding the Waist",
+        body: "The narrow segment between the thorax and the gaster is the petiole, the ant's 'waist'. Workers of this fairly large ant are about 7–12 mm long, so the waist is easy to find.",
         anchor: 'petiole',
       },
       {
-        title: "What the Mandibles Can Do",
-        body: "A major worker's jaws (mandibles) are as stout as pliers, used daily for cutting food, hauling debris, and defense; smaller nestmates have slenderer mandibles and handle more foraging and larval care.",
+        title: "Mandibles of Big and Small Workers",
+        body: "Major and minor workers differ clearly in head width and mandible length, with majors bearing longer jaws. Minors forage and tend brood, while majors mainly guard the nest and rarely forage.",
         anchor: 'mandible',
       },
       {
-        title: "Carrying Honeydew Home",
-        body: "Inside the gaster is an expandable crop storing nectar or aphid honeydew on the carry back; once full, a worker shares it mouth to mouth with nestmates, this 'social stomach' spreading food through the colony.",
+        title: "A Black Body",
+        body: "Workers are black, rounded gaster included. Though often called 'black carpenter ants', maroon-headed workers are actually more common in colder, higher-latitude northern China.",
         anchor: 'gaster',
       },
       {
-        title: "Dividing Labor Without Eyesight",
-        body: "Ants generally have limited eyesight, so coordination relies on antennal contact and pheromone scent: a worker finding food lays a scent trail to the nest, and nestmates follow it by scent alone.",
+        title: "Telling Nestmates by Touch",
+        body: "This ant recognizes nestmates by a blend of 18 cuticular hydrocarbons that differs by colony, like a nest ID card. Workers sense it with antennae and attack outsiders, not nestmates.",
       },
     ],
     motion: {
-      title: "Farming Aphids for Honeydew",
-      body: "A carpenter ant taps an aphid's abdomen with its antennae, prompting it to release honeydew, licked up at once. In return, it drives off predators, sometimes moving the colony to a tenderer branch; farming can last a generation.",
+      title: "Meeting an Outsider",
+      body: "Workers attack other colonies' ants; in preliminary tests, even vaporized hydrocarbons from another colony did it. They also groom their antennae; if stopped, hydrocarbons build up and they struggle to tell friend from foe.",
     },
     quiz: [
       {
-        question: "What is the main function of the noticeably narrow waist between an ant's thorax and abdomen?",
-        options: ["Reducing body weight to make flying easier", "Letting the heavy hind abdomen turn and curl flexibly", "Serving as a cluster of breathing pores"],
+        question: "What does this ant use to tell nestmates from ants of other colonies?",
+        options: ["Comparing body size", "Sensing cuticular hydrocarbons with its antennae", "Listening to wing vibrations"],
         answer: 1,
-        explain: "This narrow waist, the petiole, is a flexible joint letting the gaster swing for precise stinging or acid-spraying, not for weight or breathing.",
+        explain: "Workers sense each colony's distinct hydrocarbon blend; one nest has varied worker sizes, so size isn't a nest marker.",
       },
       {
-        question: "Which statement about the lifespan of this carpenter ant is correct?",
+        question: "When a founding queen invests a fixed amount, how are the number and size of her first workers related?",
         options: [
-          "A queen can live more than ten years, while most workers live less than two",
-          "Workers and queens both live around one to two years, with little difference",
-          "Workers outlive queens because egg-laying takes a heavy toll on the queen",
+          "More workers, smaller workers",
+          "More workers, larger workers",
+          "Number and size are unrelated",
         ],
         answer: 0,
-        explain: "A queen sheds her wings after mating, founding a nest for life, with a lifespan past ten years; workers outside typically live months to two years.",
+        explain: "Founding resources are limited: at equal investment, more first workers means smaller ones; more investment raises both number and size.",
       },
     ],
     habitat: {
-      title: "An Underground City of Chambers",
-      body: "The nest is usually built deep in soil, under rocks, or rotting wood, divided into brood chambers, food-storage rooms, and other spaces linked by tunnels; the queen lives in the innermost chamber, workers moving by role.",
+      title: "A Soil Nest in Open Ground",
+      body: "It nests in soil in open habitats, with entrances opening straight onto the surface and no mound around them. In mainland China, researchers collected its workers from 24° to 47° N at 22 sites, covering most of its range there.",
     },
   },
 
@@ -362,49 +362,49 @@ export const GUIDES: Record<string, Guide> = {
     lesson: [
       {
         title: "How the Song Is Made",
-        body: "A male has a thin, ribbed membrane (tymbal) on each side of the abdomen; muscles contract hundreds of times a second, snapping it into a buzz. A cicada's call can exceed 90 decibels, among the loudest insects.",
+        body: "Each side of a male's abdomen has a ribbed tymbal under a cover. Each muscle pull buckles it into a pulse burst; the sides alternate at about 180 Hz, near 80 dB at 2 m indoors.",
         anchor: 'tymbal',
       },
       {
         title: "The Abdomen as a Speaker",
-        body: "A male's abdomen is nearly hollow, like an instrument's resonance chamber, amplifying the tymbal's raw sound into a louder, farther-carrying call; females lack this and have a solid abdomen, so they never sing.",
+        body: "In a 1987 study, blocking or removing sound parts showed the abdominal chamber improves tone and loudness; its air-filled cavity works as a resonator, chiefly boosting output power.",
         anchor: 'abdomen',
       },
       {
         title: "How the Mouthparts Sip Sap",
-        body: "The mouthparts form a needle-thin piercing-sucking structure (rostrum), folded under the head at rest; feeding pierces a tree's xylem for sap, never biting or chewing leaves, often wrongly assumed leaf-eating.",
+        body: "The piercing-sucking rostrum, formed from the fused labium, sheathes mandibular and maxillary stylets. New adults first feed on tree sap; a final-instar nymph's rostrum reaches the hind coxae.",
         anchor: 'rostrum',
       },
       {
-        title: "Years Underground for Weeks Above",
-        body: "The nymph lives underground three to five years, feeding on root sap and molting before it matures; after emerging, it climbs a trunk for one final molt, growing wings, yet the adult sings and flies only weeks.",
+        title: "Years in the Soil",
+        body: "Eggs winter in twigs, hatching next May or June. Nymphs dig in with stout forelegs and suck root sap through 5 instars, usually 3–5 years or more, then climb a tree or weed to molt.",
       },
     ],
     motion: {
-      title: "Molting by Night to Emerge",
-      body: "A mature nymph emerges at dusk, climbs a trunk, and grips the bark; its back splits, and a milky-white adult pulls free of the shell and unfurls crumpled wings. This takes one to two hours, defenseless till the wings harden.",
+      title: "Climbing Out to Molt",
+      body: "A final-instar nymph leaves the soil, climbs nearby weeds or trees, and molts, leaving a cicada slough. In Zhejiang's Jinqu Basin, emergence starts in mid-to-late June and peaks in early-to-mid July.",
     },
     quiz: [
       {
-        question: "What are a cicada's mouthparts mainly used for?",
-        options: ["Chewing and biting leaves for nutrients", "Piercing a tree's xylem to feed on sap", "Preying on other small insects"],
+        question: "What are the large black cicada's mouthparts mainly used for?",
+        options: ["Chewing and biting leaves for nutrients", "Piercing a tree to feed on sap", "Preying on other small insects"],
         answer: 1,
-        explain: "A cicada's mouthparts pierce the trunk's xylem for sap; it neither chews leaves nor preys on insects, though often mistaken for a leaf-eating pest.",
+        explain: "Its mouthparts pierce and suck, with stylets inside the rostrum; sources record adults sucking tree sap and nymphs sucking root sap.",
       },
       {
-        question: "Does the cicada emerge en masse only once every many years, like North America's '17-year cicadas'?",
+        question: "Periodical cicadas in North America emerge en masse every 13 or 17 years. What do sources record for the large black cicada?",
         options: [
-          "Yes, it too waits a fixed number of years before appearing all at once",
-          "No, nymphs are not synchronized underground, so they can be seen almost every summer",
-          "No, in fact it only lives underground for a few weeks each year",
+          "It too appears en masse only every 13 or 17 years",
+          "Adults lay eggs every July and August",
+          "Nymphs live underground for only a few weeks",
         ],
         answer: 1,
-        explain: "Cicada nymphs live underground three to five years, not synchronized, so some emerge yearly, unlike a periodical cicada erupting once per many years.",
+        explain: "Sources record egg-laying every July and August, nymphs usually spending 3–5 years or more in soil, and nymphs of all instars overwintering there.",
       },
     ],
     habitat: {
       title: "Between Root and Trunk",
-      body: "The nymph lives hidden in soil around a tree's roots, developing on root sap; the adult moves to trunk and canopy, feeding, singing, and courting by day. One species thus occupies underground and treetop, rarely overlapping.",
+      body: "Hatched nymphs drop and burrow into moist, soft soil to feed on root sap; adults suck sap, mate, and lay eggs in trees. At a Jinhua airfield, adults were active by day, peaking from nine a.m. to five p.m.",
     },
   },
 
@@ -512,53 +512,53 @@ export const GUIDES: Record<string, Guide> = {
     lesson: [
       {
         title: 'How Long Are the Antennae',
-        body: "Black-and-white banded antennae reach nearly twice body length in males — the trait that most easily sets this beetle apart. Sensors on the antennae surface detect host-tree scent and mates' pheromones.",
+        body: "The 11 antennal segments are white or pale blue at the base, black at the tip. They reach about 1.7–2 times body length in males, 1.2 in females; male elytra taper, female elytra have parallel sides.",
         anchor: 'antenna',
       },
       {
         title: 'What the Mandibles Are For',
-        body: 'The stout mandibles serve many uses: adults gnaw bark for food, and before laying eggs, females carve a notch, deposit eggs inside, then seal it with secretions so hatched grubs can bore into the trunk.',
+        body: 'Newly emerged adults feed on twigs, petioles and bark for about 10–15 days before mating. A female then chews a T-shaped slit in bark near the ground so she can insert her ovipositor, laying one egg per slit.',
         anchor: 'mandible',
       },
       {
         title: 'Reading the White-Spotted Elytra',
-        body: 'Irregular white spots scatter across the black elytra, varying between beetles so no two look alike. This bold pattern makes it easy to spot on tree trunks — the opposite strategy from camouflaged beetles.',
+        body: 'The glossy black elytra usually bear 10–20 irregular white patches, sometimes pale yellow. Its 20–40 basal tubercles make the surface grainy, the main way to tell it from the Asian longhorned beetle.',
         anchor: 'elytra',
       },
       {
         title: 'Wintering Inside the Trunk',
-        body: 'After hatching, the grub bores from the notch into the sapwood, tunneling through trunk and roots to feed for one to two years, rarely emerging. This hidden habit makes detection and control especially hard.',
+        body: 'Grubs first feed in the cambium under the bark, then bore into the trunk base and roots; most overwinter as larvae. With little early frass, infested trees can go unnoticed for years, so control is hard.',
       },
     ],
     motion: {
       title: 'Boring a Tunnel Through the Trunk',
-      body: "A hatched grub bores from the egg notch into the sapwood, pushing frass out as it advances with its mandibles. The tunnel winds along the grain for tens of centimeters until the grub pupates at its end one to two years later.",
+      body: "A young grub first feeds in the cambium, then bores an oval tunnel into sapwood and heartwood, mostly down to the roots. Frass is pushed out near the egg site and piles at the trunk base; the grub pupates at the tunnel end.",
     },
     quiz: [
       {
-        question: 'Why does a female Citrus Longhorned Beetle carve a notch in the bark with her mandibles before laying eggs?',
+        question: 'Why does a female Citrus Longhorned Beetle chew a T-shaped slit in the bark with her mandibles when laying eggs?',
         options: [
-          'The notch marks territory to drive off other females',
-          'Eggs are laid inside the notch and sealed, so hatched grubs can easily bore into the sapwood',
-          "Sap oozing from the notch becomes the female's own food source",
+          'To mark territory and drive off other females',
+          'To insert her ovipositor and lay an egg in the bark',
+          "To leave a mark so she can find the same tree again",
         ],
         answer: 1,
-        explain: 'The notch is sealed with secretions to protect the eggs inside, letting hatched grubs bore straight into the trunk to feed.',
+        explain: 'The T-shaped slit lets her insert the ovipositor; she lays one egg per slit, within or under the bark.',
       },
       {
-        question: 'The Citrus Longhorned Beetle is native to East Asia — why has it established wild populations in several European countries?',
+        question: 'The Citrus Longhorned Beetle is native to Asia — how has it mainly reached Europe and other regions?',
         options: [
           'It can fly long distances across open sea on its own',
-          'It hitchhikes unnoticed on nursery stock and wooden packaging through trade',
+          'It travels hidden in imported live plants such as bonsai and nursery stock',
           'Migratory birds carried its grubs to Europe',
         ],
         answer: 1,
-        explain: 'Grubs hide unnoticed inside trunks, often reaching Europe and North America in nursery stock or wooden packaging — not by flying across the sea.',
+        explain: 'In trade it moves mainly as eggs, larvae or pupae inside bonsai and nursery stock; importing host plants is the main pathway.',
       },
     ],
     habitat: {
       title: 'A Lifetime Hidden Inside Trunks',
-      body: 'As grubs they live deep in the sapwood of living trees, tunneling from trunk base to roots, rarely seeing daylight. Only as adults do they chew through bark to roam forests, orchards, and city trees, gnawing bark, seeking mates.',
+      body: 'Grubs live in the trunk base and roots of living trees. Adults exit via round holes usually 10–15 mm wide near the trunk base, then eat twigs and leaves and mate. Abroad it favors urban trees; in Türkiye, hazelnut orchards too.',
     },
   },
 
